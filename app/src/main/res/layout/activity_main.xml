@@ -2,6 +2,7 @@
 <RelativeLayout
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
     xmlns:android="http://schemas.android.com/apk/res/android">
 <TableLayout
     android:layout_width="fill_parent"
@@ -11,13 +12,16 @@
         android:layout_width="wrap_content"
         android:layout_height="match_parent">
 
-        <ImageView
+        <ImageButton
             android:id="@+id/Picture1"
             android:layout_width="@dimen/ImgVW"
             android:layout_height="@dimen/ImgVH"
             android:scaleType="centerCrop"
-            android:src="@drawable/billgates" />
-
+            android:clickable="true"
+            android:onClick="postToast1"
+            android:background="@color/colorPrimaryDark"
+            android:src="@drawable/billgates"
+            />
         <ScrollView
             android:id="@+id/scrollview1"
             android:layout_width="wrap_content"
@@ -28,21 +32,28 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/bill_gates"
-                android:textSize="@dimen/TextInfoSize" />
+                android:layout_marginRight="@dimen/ImgVW"
+                android:textSize="@dimen/TextInfoSize"
+                android:textColor="@android:color/white"
+                />
+
         </ScrollView>
     </TableRow>
 
     <TableRow
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        >
+        android:layout_marginTop="5dp">
 
-        <ImageView
+        <ImageButton
             android:id="@+id/Picture2"
             android:layout_width="@dimen/ImgVW"
             android:layout_height="@dimen/ImgVH"
             android:scaleType="centerCrop"
-            android:src="@drawable/elonmusk"/>
+            android:clickable="true"
+            android:onClick="postToast2"
+            android:src="@drawable/elonmusk"
+            android:background="@color/colorPrimaryDark"/>
 
 <ScrollView android:id="@+id/scrollview2"
     android:layout_width="wrap_content"
@@ -53,6 +64,8 @@
             android:layout_height="wrap_content"
             android:text="@string/elon_musk"
             android:textSize="@dimen/TextInfoSize"
+            android:layout_marginRight="@dimen/ImgVW"
+            android:textColor="@android:color/white"
             />
 </ScrollView>
     </TableRow>
@@ -60,14 +73,18 @@
     <TableRow
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
         >
 
-        <ImageView
+        <ImageButton
             android:id="@+id/Picture3"
             android:layout_width="@dimen/ImgVW"
             android:layout_height="@dimen/ImgVH"
             android:scaleType="centerCrop"
-            android:src="@drawable/markzuckerberg"/>
+            android:clickable="true"
+            android:onClick="postToast3"
+            android:src="@drawable/markzuckerberg"
+            android:background="@color/colorPrimaryDark"/>
 
 <ScrollView android:id="@+id/scrollview3"
     android:layout_width="wrap_content"
@@ -78,6 +95,8 @@
             android:layout_height="wrap_content"
             android:text="@string/mark_zuckerberg"
             android:textSize="@dimen/TextInfoSize"
+            android:layout_marginRight="@dimen/ImgVW"
+            android:textColor="@android:color/white"
             />
 </ScrollView>
     </TableRow>
