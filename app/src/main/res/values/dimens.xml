@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="ImgVW">170dp</dimen>
+    <dimen name="ImgVH">170dp</dimen>
+    <dimen name="TextInfoSize">15sp</dimen>
+</resources>
