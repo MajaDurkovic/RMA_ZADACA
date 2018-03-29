@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             @Override
             public void onClick(View view) {
 
-                Toast notification = Toast.makeText(MainActivity.this, "\"If you can't make it good, at least make it look good.\" -Bill Gates", Toast.LENGTH_LONG);
+                Toast notification = Toast.makeText(MainActivity.this, R.string.billgatesquote, Toast.LENGTH_LONG);
                 notification.show();
             }
         }));
@@ -36,7 +36,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             @Override
             public void onClick(View view) {
 
-                Toast notification = Toast.makeText(MainActivity.this, "\"I could either watch it happen or be a part of it.\" - Elon Musk", Toast.LENGTH_LONG );
+                Toast notification = Toast.makeText(MainActivity.this, R.string.elonmuskquote, Toast.LENGTH_LONG );
                 notification.show();
             }
         }));
@@ -47,7 +47,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             @Override
             public void onClick(View view) {
 
-                Toast notification = Toast.makeText(MainActivity.this, "\"Unless you are breaking stuff, you are not moving fast enough.\"-Mark Zuckerberg", Toast.LENGTH_LONG );
+                Toast notification = Toast.makeText(MainActivity.this, R.string.markzuckquote, Toast.LENGTH_LONG );
                 notification.show();
             }
         }));
