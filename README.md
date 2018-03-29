@@ -21,4 +21,4 @@ Rješenje je bilo pomaknuti desnu marginu TextView-a točno za veličinu ImageBu
 Informacije o odabranim osobama su preuzete sa Wikipedije.
 
 # Izgled aplikacije
-![screenshot_2018-03-29-18-07-32](https://user-images.githubusercontent.com/37849326/38104997-268747ee-338b-11e8-8f6a-fd9bd2bc9883.png)
+![screenshot_2018-03-29-18-07-25](https://user-images.githubusercontent.com/37849326/38105258-dc4a3262-338b-11e8-95ec-e747619323ff.png)
